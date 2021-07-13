@@ -1,7 +1,7 @@
 import Rx from 'rx';
 import path from 'path';
-import getSymlinkedModules from './getSymlinkedModules';
-import dedupe from './dedupe';
+import getSymlinkedModules from './getSymlinkedModules.js';
+import dedupe from './dedupe.js';
 
 /**
  * Performs the deduplication of the given module, even if it has symbolic

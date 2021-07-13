@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var Rx = require( 'rx' );
-var symlinkDedupe = require( '../build/index' ).default;
+import Rx from 'rx';
+import symlinkDedupe from '../src/index.js';
 
 var logObserver = Rx.Observer.create(
   function( el ) {

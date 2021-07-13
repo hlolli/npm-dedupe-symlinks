@@ -4,7 +4,7 @@ import fs from 'fs-extra';
 import child_process from 'child_process';
 import compareVersions from 'compare-versions';
 
-import observableFromNodeCallback from './observableFromNodeCallback';
+import observableFromNodeCallback from './observableFromNodeCallback.js';
 
 // TODO: move to fs-rx
 const symlink = observableFromNodeCallback( fs.symlink );

@@ -1,7 +1,7 @@
 import Rx from 'rx';
 import fs from 'fs-extra';
 import path from 'path';
-import observableFromNodeCallback from './observableFromNodeCallback';
+import observableFromNodeCallback from './observableFromNodeCallback.js';
 
 // TODO: move to fs-rx
 const realpath = observableFromNodeCallback( fs.realpath );
